@@ -1,0 +1,21 @@
+name: offline_ai_chat
+description: Modern offline AI chatbot
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+    flutter: '>=3.16.0'
+
+    dependencies:
+      flutter:
+          sdk: flutter
+            google_fonts: ^6.2.1
+              flutter_animate: ^4.5.0
+                flutter_markdown: ^0.7.4
+
+                dev_dependencies:
+                  flutter_lints: ^4.0.0
+
+                  flutter:
+                    uses-material-design: true
